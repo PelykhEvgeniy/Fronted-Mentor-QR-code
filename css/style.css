@@ -1,8 +1,9 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(154, 214, 214);
+    background-color: hsl(212, 45%, 89%);
     min-height: 100vh;
+    font-family: 'Outfit', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,25 +16,26 @@ body{
     justify-content: center;
 }
 .inner{   
-    padding: 20px 10px 50px 10px;
-    background-color: #fff;
+    padding: 20px 10px 30px 10px;
+    background-color:hsl(0, 0%, 100%);
     max-width: 326px;
 }
 
 .title{
     font-size: 1.7rem; 
-    font-weight: 600;
+    font-weight: 700;
     text-align: center; 
     line-height: 1.8rem;
     margin: 0;
     margin: 35px 0;
-    color: #000;
+    color: hsl(218, 44%, 22%);
 }
 .descr{
-    font-size: 1.3rem; 
+    font-size: 1rem; 
+    font-weight: 400;
     text-align: center; 
-    line-height: 1.4rem;
-    color: #9b9999
+    line-height: 1.5rem;
+    color: hsl(220, 15%, 55%) ;
 }
 img{
     display: block;
